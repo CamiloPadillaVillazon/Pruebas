@@ -25,5 +25,10 @@ describe("Fizzbazz", () => {
         expect(generarFizzBuzz(15)).toEqual("Fizz");
     });
 
+    it("generar el Fizz para el 15", () => {
+        expect(generarFizzBuzz(15)).toEqual("Fizz");
+    });
+
+
 });
 
