@@ -11,11 +11,15 @@ function generarFizzBuzz(num){
         return "Fizz"
     }
 
+    if(num === 3 && num === 5){
+        return "Fizz"
+    }
 
-    //for(i=0; i<num; i++)
-    //{
-        //console.log(num)
-    //}
+    
+    for(i=0; i<num; i++)
+    {
+        console.log(num)
+    }
 
     return num+"";
 
